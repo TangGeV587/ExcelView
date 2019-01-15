@@ -110,12 +110,12 @@
         cell.label.font=self.textFont;
         cell.label.textAlignment=NSTextAlignmentCenter;
         if (!self.isLockFristRow && indexPath.row==0) {
-            cell.label.textColor=RGB(94, 153, 251);
+            cell.label.textColor=[UIColor colorWithRed:94/255.0 green:153/255.0 blue:251/255.0 alpha:1.0];
             cell.layer.borderWidth=0.6;
             cell.layer.borderColor=[UIColor whiteColor].CGColor;
             cell.contentView.layer.backgroundColor=self.fristRowBackGround.CGColor;
         }else{
-            cell.label.textColor=RGB(84, 84, 84);
+            cell.label.textColor=[UIColor colorWithRed:84/255.0 green:84/255.0 blue:84/255.0 alpha:1.0];
             cell.layer.borderWidth=0.6;
             cell.layer.borderColor=[UIColor groupTableViewBackgroundColor].CGColor;
         }
@@ -143,7 +143,7 @@
                 UIView *view=[[UIView alloc]initWithFrame:CGRectMake(x, 0, [self.mColumeMaxWidths[i+1] floatValue], [self.mRowMaxHeights[indexPath.row] floatValue])];
                 UILabel *dataView=[[UILabel alloc]initWithFrame:view.bounds];
                 dataView.text=rowDatas[i];
-                dataView.textColor=RGB(94, 153, 251);
+                dataView.textColor=[UIColor colorWithRed:229/255.0 green:239/255.0 blue:254/255.0 alpha:1.0];
                 dataView.textAlignment=NSTextAlignmentCenter;
                 dataView.numberOfLines=0;
                 dataView.font=self.textFont;
@@ -159,7 +159,7 @@
                 UIView *view=[[UIView alloc]initWithFrame:CGRectMake(x, 0, [self.mColumeMaxWidths[i+1] floatValue], [self.mRowMaxHeights[indexPath.row] floatValue])];
                 UILabel *dataView=[[UILabel alloc]initWithFrame:view.bounds];
                 dataView.text=rowDatas[i];
-                dataView.textColor=RGB(84, 84, 84);
+                dataView.textColor=[UIColor colorWithRed:84/255.0 green:84/255.0 blue:84/255.0 alpha:1.0];;
                 dataView.textAlignment=NSTextAlignmentCenter;
                 dataView.numberOfLines=0;
                 dataView.font=self.textFont;

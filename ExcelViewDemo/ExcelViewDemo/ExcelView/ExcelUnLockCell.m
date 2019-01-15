@@ -113,7 +113,7 @@
                 UIView *view=[[UIView alloc]initWithFrame:CGRectMake(x, 0, [self.mColumeMaxWidths[i] floatValue], [self.mRowMaxHeights[indexPath.row] floatValue])];
                 UILabel *dataView=[[UILabel alloc]initWithFrame:view.bounds];
                 dataView.text=rowDatas[i];
-                dataView.textColor=RGB(94, 153, 251);
+                dataView.textColor=[UIColor colorWithRed:84/255.0 green:84/255.0 blue:84/255.0 alpha:1.0];
                 dataView.textAlignment=NSTextAlignmentCenter;
                 dataView.numberOfLines=0;
                 dataView.font=self.textFont;
@@ -129,7 +129,7 @@
                 UIView *view=[[UIView alloc]initWithFrame:CGRectMake(x, 0, [self.mColumeMaxWidths[i] floatValue], [self.mRowMaxHeights[indexPath.row] floatValue])];
                 UILabel *dataView=[[UILabel alloc]initWithFrame:view.bounds];
                 dataView.text=rowDatas[i];
-                dataView.textColor=RGB(84, 84, 84);
+                dataView.textColor=[UIColor colorWithRed:84/255.0 green:84/255.0 blue:84/255.0 alpha:1.0];
                 dataView.textAlignment=NSTextAlignmentCenter;
                 dataView.numberOfLines=0;
                 dataView.font=self.textFont;

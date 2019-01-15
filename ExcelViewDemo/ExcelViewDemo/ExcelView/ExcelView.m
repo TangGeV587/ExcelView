@@ -75,7 +75,7 @@
     self.mContentOffset=CGPointMake(0, 0);
     self.columnTitlte=@"";
     self.textFont=[UIFont systemFontOfSize:17];
-    self.fristRowBackGround=RGB(229, 239, 254);
+    self.fristRowBackGround= [UIColor colorWithRed:229/255.0 green:239/255.0 blue:254/255.0 alpha:1.0];
     self.columnMaxWidth=100;
     self.columnMinWidth=70;
     self.mLockViewWidth=0;
@@ -438,7 +438,7 @@
             //构造锁定视图
             UILabel *lockView=[[UILabel alloc]initWithFrame:CGRectMake(cell.lockView.frame.origin.x, cell.lockView.frame.origin.y,[self.mColumeMaxWidths[0] floatValue], [self.mRowMaxHeights[0] floatValue])];
             lockView.text=[self.mYTableDatas objectAtIndex:0];
-            lockView.textColor=RGB(94, 153, 251);
+            lockView.textColor= [UIColor colorWithRed:94/255.0 green:153/255.0 blue:251/255.0 alpha:1.0];
             lockView.textAlignment=NSTextAlignmentCenter;
             lockView.numberOfLines=0;
             lockView.font=self.textFont;
@@ -455,7 +455,7 @@
                 UIView *view=[[UIView alloc]initWithFrame:CGRectMake(x, 0, [self.mColumeMaxWidths[i] floatValue], [self.mRowMaxHeights[0] floatValue])];
                 UILabel *dataView=[[UILabel alloc]initWithFrame:view.bounds];
                 dataView.text=data;
-                dataView.textColor=RGB(94, 153, 251);
+                dataView.textColor=[UIColor colorWithRed:94/255.0 green:153/255.0 blue:251/255.0 alpha:1.0];
                 dataView.textAlignment=NSTextAlignmentCenter;
                 dataView.numberOfLines=0;
                 dataView.font=self.textFont;
@@ -484,7 +484,7 @@
                 UIView *view=[[UIView alloc]initWithFrame:CGRectMake(x, 0, [self.mColumeMaxWidths[i] floatValue],[self.mRowMaxHeights[0] floatValue])];
                 UILabel *dataView=[[UILabel alloc]initWithFrame:view.bounds];
                 dataView.text=data;
-                dataView.textColor=RGB(94, 153, 251);
+                dataView.textColor=[UIColor colorWithRed:94/255.0 green:153/255.0 blue:251/255.0 alpha:1.0];
                 dataView.textAlignment=NSTextAlignmentCenter;
                 dataView.numberOfLines=0;
                 dataView.font=self.textFont;
