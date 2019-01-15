@@ -26,7 +26,6 @@
 		CA3146B41E4DAC0D00EF4499 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3146B31E4DAC0D00EF4499 /* ViewController.xib */; };
 		CA3146C21E4DAF0800EF4499 /* ExcelView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3146BC1E4DAF0800EF4499 /* ExcelView.m */; };
 		CA571C0C1E5451D900D1253B /* UILabel+FitWitdhAndHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = CA571C0B1E5451D900D1253B /* UILabel+FitWitdhAndHeight.m */; };
-		E9E700EF21ED90BA00894715 /* ExcelView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E9E700EE21ED90BA00894715 /* ExcelView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,7 +61,7 @@
 		CA3146BC1E4DAF0800EF4499 /* ExcelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcelView.m; sourceTree = "<group>"; };
 		CA571C0A1E5451D900D1253B /* UILabel+FitWitdhAndHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FitWitdhAndHeight.h"; sourceTree = "<group>"; };
 		CA571C0B1E5451D900D1253B /* UILabel+FitWitdhAndHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FitWitdhAndHeight.m"; sourceTree = "<group>"; };
-		E9E700EE21ED90BA00894715 /* ExcelView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ExcelView.podspec; path = ../ExcelView.podspec; sourceTree = "<group>"; };
+		E9E700F021ED923500894715 /* ExcelView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = ExcelView.podspec; path = ../ExcelView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +78,7 @@
 		CA3146901E4DAB2700EF4499 = {
 			isa = PBXGroup;
 			children = (
-				E9E700EE21ED90BA00894715 /* ExcelView.podspec */,
+				E9E700F021ED923500894715 /* ExcelView.podspec */,
 				CA31469B1E4DAB2700EF4499 /* ExcelViewDemo */,
 				CA31469A1E4DAB2700EF4499 /* Products */,
 			);
@@ -211,7 +210,6 @@
 				CA0C25941E938195000DDFA0 /* ExcelLockCell.xib in Resources */,
 				CA0C258A1E937668000DDFA0 /* ExcelLockSection.xib in Resources */,
 				CA0C259E1E9388C9000DDFA0 /* ExcelUnLockCell.xib in Resources */,
-				E9E700EF21ED90BA00894715 /* ExcelView.podspec in Resources */,
 				CA0C25A81E93895E000DDFA0 /* ScrollViewCell.xib in Resources */,
 				CA3146A91E4DAB2700EF4499 /* Assets.xcassets in Resources */,
 				CA0C258F1E937CD9000DDFA0 /* ExcelSection.xib in Resources */,
