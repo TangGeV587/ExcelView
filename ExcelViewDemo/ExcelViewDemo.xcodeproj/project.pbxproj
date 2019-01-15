@@ -61,6 +61,7 @@
 		CA3146BC1E4DAF0800EF4499 /* ExcelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcelView.m; sourceTree = "<group>"; };
 		CA571C0A1E5451D900D1253B /* UILabel+FitWitdhAndHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FitWitdhAndHeight.h"; sourceTree = "<group>"; };
 		CA571C0B1E5451D900D1253B /* UILabel+FitWitdhAndHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FitWitdhAndHeight.m"; sourceTree = "<group>"; };
+		E9E700EC21ED8D3B00894715 /* ExcelView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = ExcelView.podspec; path = ../ExcelView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		CA3146901E4DAB2700EF4499 = {
 			isa = PBXGroup;
 			children = (
+				E9E700EC21ED8D3B00894715 /* ExcelView.podspec */,
 				CA31469B1E4DAB2700EF4499 /* ExcelViewDemo */,
 				CA31469A1E4DAB2700EF4499 /* Products */,
 			);
