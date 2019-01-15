@@ -3,7 +3,7 @@ s.name         = "ExcelView"
 s.version      = "1.1.1"
 s.summary      = "ExcelView"
 s.description  = <<-DESC
-MathStringExpression
+ExcelView
 DESC
 s.homepage     = "https://github.com/TangGeV587/ExcelView.git"
 # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
