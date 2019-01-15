@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "ExcelView"
-s.version      = "1.0.1"
+s.version      = "1.0.2"
 s.summary      = "ExcelView"
 s.description  = <<-DESC
 MathStringExpression
@@ -12,6 +12,6 @@ s.author             = { "TangGeV587" => "349082502@qq.com" }
 s.social_media_url   = "https://github.com/RmondJone/ExcelView.git"
 s.platform     = :ios, "9.0"
 s.source       = { :git => "https://github.com/TangGeV587/ExcelView.git", :tag => "#{s.version}" }
-s.source_files  = "ExcelViewDemo/ExcelView/**/*.{h,m}"
+s.source_files  = "ExcelViewDemo/ExcelViewDemo/ExcelView/**/*.{h,m}"
 s.requires_arc = true
 end
